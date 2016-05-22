@@ -1,0 +1,100 @@
+{
+	"header": {
+		"title": {
+			"text": "File Size Diversity by Mime Type",
+			"fontSize": 54,
+			"font": "open sans"
+		},
+		"subtitle": {
+			"color": "#999999",
+			"fontSize": 12,
+			"font": "open sans"
+		},
+		"titleSubtitlePadding": 9
+	},
+	"footer": {
+		"color": "#999999",
+		"fontSize": 10,
+		"font": "open sans",
+		"location": "bottom-left"
+	},
+	"size": {
+		"canvasHeight": 900,
+		"canvasWidth": 1200,
+		"pieInnerRadius": "13%",
+		"pieOuterRadius": "92%"
+	},
+	"data": {
+		"sortOrder": "value-desc",
+		"smallSegmentGrouping": {
+			"enabled": true,
+			"value": 0.01
+		},
+		"content": [
+    {
+        "label": "text/html", 
+        "value": 10000, 
+        "color": "#667f57"
+    }, 
+    {
+        "label": "applicaton/pdf", 
+        "value": 14000, 
+        "color": "#45578b"
+    }, 
+    {
+        "label": "applicaton/video", 
+        "value": 90000, 
+        "color": "#858d3e"
+    }
+]
+	},
+	"labels": {
+		"outer": {
+			"format": "label-value1",
+			"pieDistance": 50
+		},
+		"inner": {
+			"hideWhenLessThanPercentage": 2
+		},
+		"mainLabel": {
+			"fontSize": 11
+		},
+		"percentage": {
+			"color": "#ffffff",
+			"decimalPlaces": 0
+		},
+		"value": {
+			"color": "#adadad",
+			"fontSize": 11
+		},
+		"lines": {
+			"enabled": true
+		},
+		"truncation": {
+			"enabled": true
+		}
+	},
+	"tooltips": {
+		"enabled": true,
+		"type": "placeholder",
+		"string": "{label}: {value}",
+		"styles": {
+			"borderRadius": 4,
+			"font": "verdana",
+			"fontSize": 14
+		}
+	},
+	"effects": {
+		"pullOutSegmentOnClick": {
+			"effect": "linear",
+			"speed": 400,
+			"size": 25
+		}
+	},
+	"misc": {
+		"gradient": {
+			"enabled": true,
+			"percentage": 100
+		}
+	}
+}

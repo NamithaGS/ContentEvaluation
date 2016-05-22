@@ -1,0 +1,43 @@
+{
+    "C:/USC Course material/CS - 599/Assignment 3/CSCI-599-Assignment-3/test/html/000A1DBCD743A512D322844D15BB26D495115DC605418468B339E70743346560": {
+        "NER_PERSON": [
+            "Christopher Newby", 
+            "Parsons"
+        ], 
+        "NER_MONEY": ["one million"], 
+        "NER_LOCATION": [
+            "Ocean Drive Loop,", 
+            "Monmounth Beach", 
+            "Sea Bright", 
+            "New Jersey", 
+            "Ocean Drive", 
+            "Alaska", 
+            "Ocean Drive Loop", 
+            "Many", 
+            "East", 
+            "Lake Street"
+        ], 
+        "NER_DATE": [
+            "(1998).", 
+            "a", 
+            "2,000", 
+            "1994,", 
+            "1983,", 
+            "1998,", 
+            "ten years", 
+            "1999,", 
+            "1996,", 
+            "1997,", 
+            "1997).", 
+            "early"
+        ], 
+        "NER_ORGANIZATION": [
+            "Duke University Press, Durham", 
+            "Duke University Press, Durham NC,", 
+            "Research", 
+            "Columbia University Press, New York,", 
+            "Research Reserve"
+        ], 
+        "Content-Type": "text/html"
+    }
+}
